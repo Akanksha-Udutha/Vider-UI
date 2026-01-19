@@ -1,0 +1,145 @@
+.login-page-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f6; 
+  font-family: 'Inter', sans-serif;
+}
+.main-auth-card {
+  display: flex;
+  width: 95%;
+  max-width: 1100px; 
+  height: 620px;     
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+.login-left {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.form-box {
+  width: 100%;
+  max-width: 340px;
+  text-align: center;
+}
+.logo-icon {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.form-box h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111827;
+}
+.input-group {
+  position: relative;
+  margin-bottom: 18px;
+}
+.field-icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #3b82f6; 
+}
+.input-group input {
+  width: 100%;
+  padding: 14px 14px 14px 44px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  font-size: 15px;
+  outline: none;
+}
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  background-color: #3b82f6; 
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.forgot-pass {
+  font-size: 14px;
+  color: #3b82f6;
+  text-decoration: none;
+}
+.divider {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  color: #9ca3af;
+  font-size: 14px;
+}
+.divider::before, .divider::after {
+  content: ""; flex: 1; border-bottom: 1px solid #e5e7eb;
+}
+.btn-google {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.google-svg { width: 35px; }
+.login-right {
+  flex: 1; 
+  padding: 20px; 
+}
+.slider-card {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #10b981 0%, #1d4ed8 100%); 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 40px;
+  position: relative;
+  text-align: center;
+}
+.carousel-main-image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  margin-bottom: 30px;
+}
+.slider-text {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 85%;
+  margin-bottom: 40px;
+}
+.slider-dots {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  gap: 8px;
+}
+.dot {
+  width: 25px; 
+  height: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.dot.active {
+  background: white;
+}
