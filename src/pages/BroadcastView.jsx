@@ -1,5 +1,5 @@
 function BroadcastView() {
-  return <div></div>;
+  return <div>Broadcast</div>;
 }
 
 export default BroadcastView;
